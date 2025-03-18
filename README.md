@@ -12,7 +12,7 @@ This chatbot application facilitates admission inquiries for the Applied Mathema
 
 ## Demo
 
-[Watch the demo video]
+[Watch the demo video](https://github.com/mona-srii-intain/AMCS-admissionbot/blob/main/AMCS_demo.screenrec?raw=true)
 
 ## Setup Instructions
 
