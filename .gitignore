@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# User data
+unanswered_questions.xlsx
+processed_questions.xlsx
+
+# IDE files
+.vscode/
+
+# Other
+*.log

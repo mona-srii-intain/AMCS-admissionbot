@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMCS Department - Admission Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="PSG Logo">
+                </div>
+                <div class="title">
+                    <h1>AMCS Department</h1>
+                    <p>Admission Assistant</p>
+                </div>
+            </div>
+            
+            <div class="chat-body" id="chat-body">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>👋 Hello! I'm the AMCS Department admission assistant. How can I help you today?</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-footer">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Type your question here...">
+                    <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="info-panel">
+            <div class="info-section">
+                <h2>About AMCS Department</h2>
+                <p>The Department of Applied Mathematics and Computational Sciences (AMCS) at PSG College of Technology offers cutting-edge programs in mathematics and computing.</p>
+            </div>
+            
+            <div class="info-section">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="https://www.psgtech.edu/department_page.php" target="_blank">Official Website</a></li>
+                    <li><a href="#" target="_blank">Admission Portal</a></li>
+                    <li><a href="#" target="_blank">Curriculum</a></li>
+                    <li><a href="#" target="_blank">Faculty</a></li>
+                </ul>
+            </div>
+            
+            <div class="info-section">
+                <h2>Contact Information</h2>
+                <p><i class="fas fa-phone"></i> 0422 - 2572177, 2572477, 4344777</p>
+                <p><i class="fas fa-envelope"></i> amcs@psgtech.ac.in</p>
+                <p><i class="fas fa-map-marker-alt"></i> PSG College of Technology, Peelamedu, Coimbatore</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
